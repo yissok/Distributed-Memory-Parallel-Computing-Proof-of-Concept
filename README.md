@@ -1,0 +1,2 @@
+# Distributed-Memory-Parallel-Computing-Proof-of-Concept
+The aim of the program is averaging each array element with its four adjacent ones. Many of these operations will be independent from one another and can thus be executed parallelly. Being a distributed memory architecture, chunks of the array are split among the machines available, processed and parts of them exchanged to update their borders to approach the correct values more quickly.
